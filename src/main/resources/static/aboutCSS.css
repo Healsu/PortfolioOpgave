@@ -1,0 +1,56 @@
+body{
+background-color: sandybrown}
+h1{
+    color: black;
+    font-size: 70px;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+h2{
+    font-family: "Yu Gothic Medium";
+    text-align: match-parent;
+    font-size: 50px;
+}
+p{
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar{
+    border: 3px solid black;
+    padding-bottom: 15px;
+    background-color: #fff;
+}
+.sidebar{
+    width: 10%;
+    height: 25px;
+    text-align: center;
+}
+.sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2px;
+}
+.main{
+    border: 3px solid black;
+    margin: auto;
+    width: 50%;
+    background-color: #fff;
+    text-align: center;
+
+}
+
+
+
+.main {
+    width: 60%;
+    height: 150vh;
+}
+
+
+

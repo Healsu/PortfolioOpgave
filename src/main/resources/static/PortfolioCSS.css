@@ -1,0 +1,64 @@
+body{
+    background-color: grey;
+}
+h1{
+    color: black;
+    font-size: 70px;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: px;
+}
+h2{
+    font-family: "Yu Gothic Medium";
+    text-align: match-parent;
+    font-size: 50px;
+}
+p{
+    text-align: justify;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Vi referere til .main og .sidebar for at kunne referere til den så den store box bliver lavet sammen med sidebar */
+.main{
+    border: 3px solid black;
+    padding: 15px;
+    background-color: #fff;
+    text-align: center;
+
+}
+.sidebar {
+    border: 3px solid black;
+    padding: 15px;
+    background-color: #fff;
+}
+
+/* Den store box */
+.main {
+    width: 60%;
+    height: 150vh;
+}
+
+/* Den lille box */
+.sidebar {
+    width: 25%;
+    height: 15vh;
+}
+
+
+.sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.refrenceLinks{
+
+}
+.imgMIG{
+width: 600px;
+    height: 300px;
+}
+
